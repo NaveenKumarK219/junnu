@@ -21,7 +21,7 @@ public class JunnuInfo implements Serializable{
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name="id")
-	private long id;
+	private int id;
 	@Column(name="name")
 	private String name;
 	@Column(name="meaning")
@@ -31,10 +31,10 @@ public class JunnuInfo implements Serializable{
 	@Column(name="added_by")
 	private String addedBy;
 	
-	public long getId() {
+	public int getId() {
 		return id;
 	}
-	public void setId(long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 	public String getName() {
