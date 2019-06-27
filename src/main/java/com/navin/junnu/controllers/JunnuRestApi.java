@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.navin.junnu.models.JunnuInfo;
 import com.navin.junnu.services.JunnuService;
 
-@RestController
+@RestController("/junnu")
 @CrossOrigin
 public class JunnuRestApi {
 
